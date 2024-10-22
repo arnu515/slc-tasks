@@ -1,38 +1,13 @@
-# create-svelte
+# IIIT Courier Portal
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/main/packages/create-svelte).
+![image](https://github.com/user-attachments/assets/1609e5ae-5bf9-4ce0-b89e-07a79763cdc7)
 
-## Creating a project
+![image](https://github.com/user-attachments/assets/9a933d93-a1c8-4735-a664-f85e8581a48a)
 
-If you're seeing this, you've probably already done this step. Congrats!
+## Courier Service notification
 
-```bash
-# create a new project in the current directory
-npm create svelte@latest
+When a new courier arrives, the guard will add it to the portal, and it'll send an email to the student, and also appear in the portal. A few issues - if the courier is not addressed to a person, but say their room number, or a pseudonym, then it is not possible to send the notification.
 
-# create a new project in my-app
-npm create svelte@latest my-app
-```
+## New feature for the courier portal
 
-## Developing
-
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
-
-```bash
-npm run dev
-
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
-
-## Building
-
-To create a production version of your app:
-
-```bash
-npm run build
-```
-
-You can preview the production build with `npm run preview`.
-
-> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
+Allowing other students to collect on a student's behalf. The student can issue a ticket in the portal saying that another student with these details will pick up their courier for them. This can be done by adding a form to the portal page which allows a student to enter another student's details. It'll generate an OTP code for the student which they can share with the guard and collect the package. The other student can also revoke this OTP if they change their mind.
