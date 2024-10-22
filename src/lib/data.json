@@ -1,0 +1,328 @@
+{
+  "currentUserId": "1002",
+  "users": [
+    {
+      "id": "1001",
+      "name": "John Doe",
+      "email": "john.doe@research.iiit.ac.in",
+      "isAdmin": false
+    },
+    {
+      "id": "1002",
+      "name": "Jane Doe",
+      "email": "jane.doe@iiit.ac.in",
+      "isAdmin": true
+    },
+    {
+      "id": "1003",
+      "name": "Charlie Brown",
+      "email": "charlie.brown@students.iiit.ac.in",
+      "isAdmin": false
+    },
+    {
+      "id": "1004",
+      "name": "David Wilson",
+      "email": "david.wilson@students.iiit.ac.in",
+      "isAdmin": false
+    },
+    {
+      "id": "1005",
+      "name": "Emma Watson",
+      "email": "emma.watson@students.iiit.ac.in",
+      "isAdmin": false
+    },
+    {
+      "id": "1006",
+      "name": "Frank Castle",
+      "email": "frank.castle@students.iiit.ac.in",
+      "isAdmin": false
+    },
+    {
+      "id": "1007",
+      "name": "Grace Lee",
+      "email": "grace.lee@students.iiit.ac.in",
+      "isAdmin": false
+    },
+    {
+      "id": "1008",
+      "name": "Hank Pym",
+      "email": "hank.pym@students.iiit.ac.in",
+      "isAdmin": false
+    },
+    {
+      "id": "1009",
+      "name": "Ivy Park",
+      "email": "ivy.park@students.iiit.ac.in",
+      "isAdmin": false
+    },
+    {
+      "id": "1010",
+      "name": "Jack Daniels",
+      "email": "jack.daniels@students.iiit.ac.in",
+      "isAdmin": false
+    }
+  ],
+  "deliveries": [
+    {
+      "id": "01FJ7M3GJ4J71E2Y5K14FKH8NY",
+      "date": "2023-10-01T08:15:00Z",
+      "deliverer": "Alice Johnson",
+      "userId": "1001",
+      "service": "amazon",
+      "address": "Room 101, OBH",
+      "picked": true
+    },
+    {
+      "id": "01FJ7M3GJ4J71E2Y5K14FKH8NZ",
+      "date": "2023-10-02T09:30:00Z",
+      "deliverer": "Bob Smith",
+      "userId": "1002",
+      "service": "dhl",
+      "address": "Room 202, NBH",
+      "picked": false
+    },
+    {
+      "id": "01FJ7M3GJ4J71E2Y5K14FKH8OA",
+      "date": "2023-10-03T10:45:00Z",
+      "deliverer": "Charlie Brown",
+      "userId": "1003",
+      "service": "bluedart",
+      "address": "Room 303, Parijat",
+      "picked": true
+    },
+    {
+      "id": "01FJ7M3GJ4J71E2Y5K14FKH8OB",
+      "date": "2023-10-04T11:00:00Z",
+      "deliverer": "David Wilson",
+      "userId": "1004",
+      "service": "amazon",
+      "address": "Room 404, OBH",
+      "picked": false
+    },
+    {
+      "id": "01FJ7M3GJ4J71E2Y5K14FKH8OC",
+      "date": "2023-10-05T12:15:00Z",
+      "deliverer": "Emma Watson",
+      "userId": "1005",
+      "service": "dhl",
+      "address": "Room 505, NBH",
+      "picked": true
+    },
+    {
+      "id": "01FJ7M3GJ4J71E2Y5K14FKH8OD",
+      "date": "2023-10-06T13:30:00Z",
+      "deliverer": "Frank Castle",
+      "userId": "1006",
+      "service": "bluedart",
+      "address": "Room 606, Parijat",
+      "picked": false
+    },
+    {
+      "id": "01FJ7M3GJ4J71E2Y5K14FKH8OE",
+      "date": "2023-10-07T14:45:00Z",
+      "deliverer": "Grace Lee",
+      "userId": "1007",
+      "service": "amazon",
+      "address": "Room 707, OBH",
+      "picked": true
+    },
+    {
+      "id": "01FJ7M3GJ4J71E2Y5K14FKH8OF",
+      "date": "2023-10-08T15:00:00Z",
+      "deliverer": "Hank Pym",
+      "userId": "1008",
+      "service": "dhl",
+      "address": "Room 808, NBH",
+      "picked": false
+    },
+    {
+      "id": "01FJ7M3GJ4J71E2Y5K14FKH8OG",
+      "date": "2023-10-09T16:15:00Z",
+      "deliverer": "Ivy Park",
+      "userId": "1009",
+      "service": "bluedart",
+      "address": "Room 909, Parijat",
+      "picked": true
+    },
+    {
+      "id": "01FJ7M3GJ4J71E2Y5K14FKH8OH",
+      "date": "2023-10-10T17:30:00Z",
+      "deliverer": "Jack Daniels",
+      "userId": "1010",
+      "service": "amazon",
+      "address": "Room 100, OBH",
+      "picked": false
+    },
+    {
+      "id": "01FJ7M3GJ4J71E2Y5K14FKH8OI",
+      "date": "2023-10-11T18:45:00Z",
+      "deliverer": "Kathy Griffin",
+      "userId": "1001",
+      "service": "dhl",
+      "address": "Room 201, NBH",
+      "picked": true
+    },
+    {
+      "id": "01FJ7M3GJ4J71E2Y5K14FKH8OJ",
+      "date": "2023-10-12T19:00:00Z",
+      "deliverer": "Leonardo DiCaprio",
+      "userId": "1002",
+      "service": "bluedart",
+      "address": "Room 302, Parijat",
+      "picked": false
+    },
+    {
+      "id": "01FJ7M3GJ4J71E2Y5K14FKH8OK",
+      "date": "2023-10-13T20:15:00Z",
+      "deliverer": "Monica Bellucci",
+      "userId": "1003",
+      "service": "amazon",
+      "address": "Room 403, OBH",
+      "picked": true
+    },
+    {
+      "id": "01FJ7M3GJ4J71E2Y5K14FKH8OL",
+      "date": "2023-10-14T21:30:00Z",
+      "deliverer": "Nina Simone",
+      "userId": "1004",
+      "service": "dhl",
+      "address": "Room 504, NBH",
+      "picked": false
+    },
+    {
+      "id": "01FJ7M3GJ4J71E2Y5K14FKH8OM",
+      "date": "2023-10-15T22:45:00Z",
+      "deliverer": "Oscar Wilde",
+      "userId": "1005",
+      "service": "bluedart",
+      "address": "Room 605, Parijat",
+      "picked": true
+    },
+    {
+      "id": "01FJ7M3GJ4J71E2Y5K14FKH8ON",
+      "date": "2023-10-16T23:00:00Z",
+      "deliverer": "Pamela Anderson",
+      "userId": "1006",
+      "service": "amazon",
+      "address": "Room 706, OBH",
+      "picked": false
+    },
+    {
+      "id": "01FJ7M3GJ4J71E2Y5K14FKH8OO",
+      "date": "2023-10-17T00:15:00Z",
+      "deliverer": "Quentin Tarantino",
+      "userId": "1007",
+      "service": "dhl",
+      "address": "Room 807, NBH",
+      "picked": true
+    },
+    {
+      "id": "01FJ7M3GJ4J71E2Y5K14FKH8OP",
+      "date": "2023-10-18T01:30:00Z",
+      "deliverer": "Rachel McAdams",
+      "userId": "1008",
+      "service": "bluedart",
+      "address": "Room 908, Parijat",
+      "picked": false
+    },
+    {
+      "id": "01FJ7M3GJ4J71E2Y5K14FKH8OQ",
+      "date": "2023-10-19T02:45:00Z",
+      "deliverer": "Steve Jobs",
+      "userId": "1009",
+      "service": "amazon",
+      "address": "Room 1009, OBH",
+      "picked": true
+    },
+    {
+      "id": "01FJ7M3GJ4J71E2Y5K14FKH8OR",
+      "date": "2023-10-20T03:00:00Z",
+      "deliverer": "Tina Fey",
+      "userId": "1010",
+      "service": "dhl",
+      "address": "Room 110, NBH",
+      "picked": false
+    },
+    {
+      "id": "01FJ7M3GJ4J71E2Y5K14FKH8OS",
+      "date": "2023-10-21T04:15:00Z",
+      "deliverer": "Uma Thurman",
+      "userId": "1001",
+      "service": "bluedart",
+      "address": "Room 211, Parijat",
+      "picked": false
+    },
+    {
+      "id": "01FJ7M3GJ4J71E2Y5K14FKH8OU",
+      "date": "2023-10-23T06:45:00Z",
+      "deliverer": "Will Smith",
+      "userId": "1003",
+      "service": "dhl",
+      "address": "Room 413, NBH",
+      "picked": true
+    },
+    {
+      "id": "01FJ7M3GJ4J71E2Y5K14FKH8OV",
+      "date": "2023-10-24T07:00:00Z",
+      "deliverer": "Xena Warrior",
+      "userId": "1004",
+      "service": "bluedart",
+      "address": "Room 514, Parijat",
+      "picked": false
+    },
+    {
+      "id": "01FJ7M3GJ4J71E2Y5K14FKH8OW",
+      "date": "2023-10-25T08:15:00Z",
+      "deliverer": "Yara Shahidi",
+      "userId": "1005",
+      "service": "amazon",
+      "address": "Room 615, OBH",
+      "picked": true
+    },
+    {
+      "id": "01FJ7M3GJ4J71E2Y5K14FKH8OX",
+      "date": "2023-10-26T09:30:00Z",
+      "deliverer": "Zoe Saldana",
+      "userId": "1006",
+      "service": "dhl",
+      "address": "Room 716, NBH",
+      "picked": false
+    },
+    {
+      "id": "01FJ7M3GJ4J71E2Y5K14FKH8OY",
+      "date": "2023-10-27T10:45:00Z",
+      "deliverer": "Alan Turing",
+      "userId": "1007",
+      "service": "bluedart",
+      "address": "Room 817, Parijat",
+      "picked": true
+    },
+    {
+      "id": "01FJ7M3GJ4J71E2Y5K14FKH8OZ",
+      "date": "2023-10-28T11:00:00Z",
+      "deliverer": "Bob Smith",
+      "userId": "1008",
+      "service": "amazon",
+      "address": "Room 918, OBH",
+      "picked": false
+    },
+    {
+      "id": "01FJ7M3GJ4J71E2Y5K14FKH8PA",
+      "date": "2023-10-29T12:15:00Z",
+      "deliverer": "Chris Hemsworth",
+      "userId": "1009",
+      "service": "dhl",
+      "address": "Room 1019, NBH",
+      "picked": true
+    },
+    {
+      "id": "01FJ7M3GJ4J71E2Y5K14FKH8PB",
+      "date": "2023-10-30T13:30:00Z",
+      "deliverer": "Dwayne Johnson",
+      "userId": "1010",
+      "service": "bluedart",
+      "address": "Room 111, Parijat",
+      "picked": false
+    }
+  ]
+}
